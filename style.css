@@ -251,7 +251,26 @@ button{
    color: #6c757d;
    font-size: 14px;
 }
-.descS h4{
+.descS h3{
     color: #212529;
-    font-size: 21px;
+    font-size: 22px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
  }
+.container5{
+    max-width: 1320px;
+    height: 340px;
+    margin: auto;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid red;
+
+}
+.box1{
+    margin: auto;
+    text-align: center;
+}
+.ri-double-quotes-r{
+    color: #EDF1F3;
+    font-size: 90px;
+}
