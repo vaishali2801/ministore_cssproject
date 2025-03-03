@@ -35,6 +35,9 @@
     padding-left: 20px;
     padding-right: 10px;
 }
+.ri-search-line:hover{
+    color: #72AEC8;
+}
 .ri-user-fill{
     padding: 10px;
 }
@@ -47,7 +50,25 @@
 }
 .nav{
     transform: translate(250px,0px);
+   
 }
+.nav a:hover{
+    color: #72AEC8;
+   
+}
+.nav select{
+    border: none;
+    width: 75px;
+    color: #717171;
+}
+.nav select:hover{
+    color: #72AEC8;
+}
+.nav option:hover{
+    border: none;
+    background-color: #AEAEAE;
+}
+
 .container{
     background-color: #edf1f3;
     width: 100%;
@@ -130,8 +151,10 @@ button{
 }
 .head a{
     text-decoration: underline;
-    color: #212529;
-   
+    color: #212529; 
+}
+.head a:hover{
+    text-decoration: none;
 }
 .head h1{
     font-size: 32px;
@@ -144,6 +167,7 @@ button{
     margin: auto;
     padding: 0px 12px 16px;
     font-weight: 100;
+    margin-top: 50px;
 }
 .container2{
     max-width:1320px;
@@ -164,6 +188,10 @@ button{
    font-size: 22px;
    font-weight: 100;
    font-family: Arial, Helvetica, sans-serif;
+   transition: all 0.5s;
+}
+.desc h3:hover{
+    color: #72AEC8;
 }
 .desc{
     display: flex;
@@ -256,6 +284,10 @@ button{
     font-size: 22px;
     font-weight: 100;
     font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.5s;
+ }
+ .descS h3:hover{
+    color:#72AEC8;;
  }
 .container5{
     max-width: 1320px;
@@ -284,7 +316,7 @@ button{
     line-height: 1.2;
 }
 .ri-star-fill{
-    font-size: 25px;
+    font-size: 20px;
     color: #72AEC8;
 }
 .font3{
@@ -299,7 +331,6 @@ button{
     justify-content: space-between;
     align-items:  center;
     background-color: #212529;
-    border: 1px solid blue;
 }
 .div4 h2{
     font-size:2.2rem;;
@@ -325,30 +356,34 @@ button{
 }
 .div5 button{
     border:none;
+    font-size: 15px;
     background-color: #72AEC8;
     color: white;
     padding: 13.5px 35px;
 }
+.div5 button:hover{
+    background-color: #212529;
+}
 .head1{
     height: 50px;
-    display: flex;
-    text-align: center;
+    width: 100%;
 }
 .head1 h1{
     font-size: 32px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
-  
+    text-align: center;
 }
+  
+
 .container7{
     max-width: 1320px;
     margin: auto;
     font-weight: 100;
+    display: flex;
 }
 .card1{
-    width: 251px;
-    height: 306px;
-    margin-right: 30px;
+    width: 100%;
     position: relative;
 }
 .card1 img{
@@ -375,6 +410,117 @@ button{
 }
 .phone1{
     width: 25%;
-    padding: -10px;
+    padding: 5px;
 }
+.container8{
+    max-width: 1320px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-weight: 100;
+    display: flex;
+   
+    padding: 0px -12px;
+}
+.box5{
+   margin-right: 40px;
+    width: 30%;
+    height: 250px;
+}
+.box6{
+   margin-left: 10px;
+    width: 24%;
+    height: 250px;
+}
+.box7{
+   
+    width: 26%;
+    height: 250px;
+}
+.box5 p{
+    color: #AEAEAE;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    display: flex;
+    margin-bottom: 18px;
 
+}
+.logo_last{ 
+    color:#D7DDDF;
+    font-size: 20px;
+}
+.ri-facebook-fill{
+   padding-right: 30px;
+   transition: all 0.5s;
+}
+.ri-facebook-fill:hover{
+   color: #72AEC8;
+}
+.ri-instagram-fill{
+    padding-right: 30px; 
+    transition: all 0.5s;  
+}
+.ri-instagram-fill:hover{
+    color: #72AEC8;
+}
+.ri-twitter-fill{
+    padding-right: 30px;  
+    transition: all 0.5s; 
+}
+.ri-twitter-fill:hover{
+    color: #72AEC8;
+}
+.ri-linkedin-fill{
+    padding-right: 30px; 
+    transition: all 0.5s;  
+}
+.ri-linkedin-fill:hover{
+    color: #72AEC8;
+}
+.ri-youtube-fill{
+    padding-right: 30px; 
+    transition: all 0.5s;  
+}
+.ri-youtube-fill:hover{
+    color: #72AEC8;
+}
+.box6 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 21px;
+}
+.box6 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0px 0px 15px;
+    transition: all 0.5s;
+}
+.box6 p:hover{
+    color: #72AEC8;
+}
+.font_last{
+    margin-top: 15px;
+}
+.box7 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 21px;
+}
+.f1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #AEAEAE;
+    margin-top: 15px;
+}
+.f2{
+    font-size: 17px;
+    margin-top: 5px;
+    transition: all 0.5s;
+}
+.f2:hover{
+    color: #72AEC8;
+}
+.f3{
+    margin-top: 10px;
+}
